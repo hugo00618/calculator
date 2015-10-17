@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- API 19+ -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar.TranslucentDecor">
+    </style>
+
+</resources>

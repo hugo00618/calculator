@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <color name="myBlack">#333333</color>
+    <color name="myWhite">#eeeeee</color>
+    <color name="myGrey">#9f9f9f</color>
+    <color name="myMidGrey">#d2d2d2</color>
+
+</resources>

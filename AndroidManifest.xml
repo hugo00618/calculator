@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.hugoyu.calculator.android"
+    android:versionCode="123"
+    android:versionName="1.2.3" >
+
+    <!--
+    0.2.1:
+    Build 15: Result TextView UI improvements.
+    Build 16: Limits input digits.
+    Build 17: Extremely big or small numbers get handled.
+    Build 18: Rounding problem fixes.
+    0.2.2:
+    Build 19: New icon.
+    Build 20: Dot inputting problem fixes.
+    Build 21: Rounding problem fixes.
+    0.2.3:
+    Build 22: Launch time improvements.
+    0.2.4:
+    Build 23: Background fade-in/fade-out effect.
+    Build 24: String encoding update.
+    Build 25: "backspace for 'Error'" bug fixes.
+    Build 26: "NumberOutOfRangeException" bug fixes.
+    Build 27: "MR button" bug fixes. 
+    0.2.5:
+    Build 28: "result shortening" bug fixes.
+    0.2.6:
+    Build 29: Number of input digits increases.
+    Build 30: Rounding issue fixes.
+    Build 31: "+/- of zero" bug fixes.
+    Build 32: "M+/M-" bug fixes.
+    Build 33: "+/- button for zero" bug fixes.
+    Build 34: FileManager unified.
+    0.2.7:
+    Build 35: Blurred wallpaper caching.
+    Build 36: Wallpaper caching pattern improvements.
+    Build 37: Wallpaper caching thread performance improvements.
+    Build 38: Wallpaper caching thread interruption gets handled.
+    0.2.8:
+    Build 39: Input bug fixes.
+    Build 40: "+/- button" bug fixes.
+    Build 41: "dot inputting" bug fixes.
+    Build 42: Language localization: Chinese(CN) and Chinese(TW).
+    Build 43: Wallpaper caching bug fixes.
+    0.2.9:
+    Build 44: "result"'s swiping threshold increased.
+    Build 45: "equal"'s behavior when "result" is showing "-" bug fixes.
+    0.2.10:
+    Build 46: Result copying.
+    Build 47: "p/m" behavior bug fixes.
+    Build 48: "mc" bug fixes.
+    Build 49: Result caching.
+    v1.0:
+    Build 50: Various bug fixes.
+    v1.0.1 Beta:
+    Build 51: Result caching bug fixes.
+    Build 52: Wallpaper caching bug fixes.
+    v1.0.2 Beta:
+    Build 53: Insert for display that ends up with "E" bug fixes.
+    Build 54: "deScinotation()" bug fixes.
+    Build 55: Long hold on result won't take effect when result is showing "Error".
+    v1.0.3 Beta:
+    Build 56: "10E7" gets avoid.
+    Build 57: Illegal input when clicking method buttons and equal button gets handled.
+    Build 58: Cropping for centered wallpaper bug fixes.
+    Build 59: Wallpaper gets compressed at low memory.
+    Build 60: Enhanced performance for devices running at low memory.
+    Build 61: UE improvements for low heap devices.
+    Build 62: Continuous calculation bug fixes.
+    Build 63: Wallpaper saving thread bug fixes.
+    v1.1 Beta:
+    Build 64: Optimized layout for landscape.
+    Build 65: Adjusted portrait layout.
+    Build 66: Transparent status bar and navigation bar for API 19+.
+    Build 67: sciNotation() and deSciNotation() fixes for negative values.
+    Build 68: Improved ResultManager.
+    Build 69: Version code caching.
+    Build 70: Notification Localization.
+    Build 71: Improved version code caching.
+    Build 72 - 77: Stupid Google Play bug fixes and build number synchronization.
+    v1.1.1 Beta:
+    Build 78: Updated ResultManager (v1.0.1) that fixes sciNotation() and
+    			 deSciNotation() for negative values and improved performance.
+    Build 79: Different digit limits for portrait and landscape.
+    Build 80: Digit differentiation improvements.
+    Build 81: +/- for 0.
+    Build 82: Updated ResultManager (v1.0.2) that fixes round() for negative values.
+    Build 83: More parameters get cached on paused.
+    Build 84: Calculating accuracy improvements.
+    Build 85: M+ and M- calculates automatically on listening number2.
+    Build 86: onResume() improvements. 
+    Build 87: +/- behavior improvements.
+    Build 88: onClick() of +/- improvements.
+    Build 89: Updated ResultManager (v1.0.3) that fixes round() for decimal part
+    			 that starts with zero(s). 
+    Build 90: Simplified StdCalculator that only uses primitive operators to 
+    			calculate to improve both the range and the accuracy of calculations.
+    Build 91: Digits limited when inputing decimal fraction.
+    Build 92, 93: Stability improvements when switching orientation quickly.
+    Build 94: Cleanup on update.
+    v1.1.2 Beta:
+    Build 95: Adjustments of code to pass Android Studio's compiler.
+    Build 96: Adjustments of code to do the version check at the very beginning.
+    Build 97: An all-new file name used by cacheResult to fix startup crashes.
+    Build 98: onResume() m gets testResult()-ed and mInput gets reseted on reset().
+    v1.1.3 Beta:
+    Build 99: mInput bug in onResume() fixes.
+    Build 100: Bug reporter embedded.
+    v1.1.4 Beta:
+    Build 101: crop() bug fixes.
+    Build 102: Damaged importing parameters file gets handled.
+    Build 103: Optional bug reporter for paid version.
+    Build 104: Crash report toast removed for free version.
+    Build 105: Verification build that checks the availability of bug reporting 
+    			without toast.
+    Build 106: Wallpaper blurring and caching bug fixes.
+    Build 107: BlurTask bug fixes.
+    v1.1.5 Beta:
+    Build 108: mInput bug fixes.
+    Build 109: Wallpaper caching bug fixes for stupid Samsung devices that don't have
+    			 wallpapers.
+    v1.2 Beta:
+    Build 110: performSwipe() bug fixes.
+    Build 111: NumberFormatException in M+ and M- gets handled.
+    Build 112: performSwipe() bug fixes in Build 110 contain problems, modification
+    			 removed.
+    Build 113: StackOverflowError on infinite file savings gets handled.
+    Build 114: ResultManager updated (v1.0.4.1) that added debug code to collect 
+    			information for fixing the OutOfBoundsException bug.
+    Build 115: New blurring algorithm.
+    Build 116: Grab images from Bing as the background image if the wallpaper is not reachable.
+    v1.2.1 Beta:
+    Build 117: New icon.
+    Build 118: Bing URL caching.
+    Build 119: Limited Japanese locale. 
+    Build 120: Version code caching fixes.
+    v1.2.2 Beta:
+    Build 121: New icon that fits both black and white backgrounds.
+    Build 122: Rebuild project in Eclipse.
+    v1.2.3 Beta:
+    Build 123: FileManager.java modified to avoid dead loops when encounter any exceptions.
+    
+    TODO:
+    -->
+
+
+    <!--
+    Check-list for switching between paid and free:
+    * Block-comment in util.BugReporter.
+    -->
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="info.hugoyu.calculator.android.util.BugReporter"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.hugoyu.calculator.android.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/DeviceDefault.ButtonBar.AlertDialog" />
+    </application>
+
+</manifest>
