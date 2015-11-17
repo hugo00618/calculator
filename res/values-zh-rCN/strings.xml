@@ -3,7 +3,7 @@
 
     <string name="app_name">计算器</string>
     <string name="error">错误</string>
-    <string name="copied">结果已拷贝至剪贴板</string>
+    <string name="copied">结果已拷贝</string>
     <string name="btnMc">MC</string>
     <string name="btnMp">M+</string>
     <string name="btnMm">M−</string>

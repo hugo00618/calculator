@@ -3,7 +3,7 @@
 
     <string name="app_name">計算機</string>
     <string name="error">エラー</string>
-    <string name="copied">Result copied to the clipboard</string>
+    <string name="copied">Result copied</string>
     <string name="btnMc">MC</string>
     <string name="btnMp">M+</string>
     <string name="btnMm">M−</string>

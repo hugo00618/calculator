@@ -31,12 +31,16 @@ public class FileManager {
 
 			return o;
 		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 			return null;
 		} catch (StreamCorruptedException e) {
+			e.printStackTrace();
 			return null;
 		} catch (IOException e) {
+			e.printStackTrace();
 			return null;
 		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
 			return null;
 		}
 

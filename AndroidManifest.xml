@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="info.hugoyu.calculator.android"
-    android:versionCode="123"
-    android:versionName="1.2.3" >
+    android:versionCode="127"
+    android:versionName="1.2.4" >
 
     <!--
     0.2.1:
@@ -139,6 +139,10 @@
     Build 122: Rebuild project in Eclipse.
     v1.2.3 Beta:
     Build 123: FileManager.java modified to avoid dead loops when encounter any exceptions.
+    v1.2.4 Beta:
+    Build 124, 125: Branch in Android Studio
+    Build 126: Target SDK updated to 23, localization file refined.
+    Build 127: Localization file refined.
     
     TODO:
     -->
@@ -151,7 +155,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="22" />
+        android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
