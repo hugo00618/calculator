@@ -1,9 +1,0 @@
-# view AndroidManifest.xml #generated:164
--keep class info.hugoyu.calculator.android.activity.MainActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:158
--keep class info.hugoyu.calculator.android.util.BugReporter { <init>(...); }
-
-# view AndroidManifest.xml #generated:173
--keep class org.acra.CrashReportDialog { <init>(...); }
-
